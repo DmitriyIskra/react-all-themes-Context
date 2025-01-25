@@ -1,0 +1,15 @@
+.userItem {
+    padding: 5px 10px;
+
+    border-bottom: 1px solid #333;
+}
+
+.link {
+    text-decoration: none;
+
+    color: #242323;
+}
+
+.link:hover {
+    font-weight: 700;
+}

@@ -1,0 +1,11 @@
+.main__user-about {
+    display: flex;
+    padding-top: 2%;
+    flex-direction: column;
+    height: 100vh;
+    place-items: center;
+}
+
+.user__wrapper {
+    margin-top: 5%;
+}

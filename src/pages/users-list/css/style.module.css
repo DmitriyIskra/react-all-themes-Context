@@ -1,0 +1,10 @@
+.main__users-list {
+    display: grid;
+    height: 100vh;
+    place-items: center;
+}
+
+.wr_button {
+    margin-top: 50px;
+}
+

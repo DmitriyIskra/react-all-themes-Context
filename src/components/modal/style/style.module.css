@@ -1,0 +1,20 @@
+.modal {
+    top: 50%;
+    left: 50%;
+
+    height: 200px;
+    width: 200px;
+
+    transform: translate(-50%, -50%);
+}
+
+.modal::backdrop {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.content {
+    display: grid;
+    place-items: center;
+    height: 100%;
+    width: 100%;
+}
