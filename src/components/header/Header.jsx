@@ -12,6 +12,8 @@ export default function Header() {
             <NavLink className={activeClass} to="/slider">Слайдер</NavLink>
             <NavLink className={activeClass} to="/form">Форма</NavLink>
             <NavLink className={activeClass} to="/use-memo">useMemo</NavLink>
+            <NavLink className={activeClass} to="/use-callback">useCallback</NavLink>
+            <NavLink className={activeClass} to="/use-react-memo">react-memo</NavLink>
             {/* <NavLink >ToDo</NavLink> */}
         </header>
   )

@@ -13,6 +13,8 @@ import UserList from './pages/users-list/UserList';
 import Slider from './pages/slider/Slider';
 import FormsPage from './pages/Forms/FormsPage';
 import HookUseMemo from './pages/use-memo/HookUseMemo';
+import HookUseCallback from './pages/useCallback/HookUseCallback';
+import ReactMemo from './pages/react-memo/ReactMemo';
 
 
 export const usersContext = createContext(null);
@@ -20,15 +22,15 @@ export const usersContext = createContext(null);
       // Layout Outlet
 // json-server ?
 // Axios
-// useMemo
-// React.memo()
+      // useMemo
+      // React.memo()
 // посмотреть react/redux 
 // фильтр пользователей
 // УЗНАТЬ КАК МОЖНО БОЛЬШЕ ПРО ROUTERPROVIDER и <BrowserRouter future={{v7_startTransition: true,}}>
-// СДЕЛАТЬ ХЕДЕР СО ССЫЛКАМИ И КОЛБЕКОМ 
-// ВСПОМНИТЬ КАК ДЕЛАТЬ ПЕРЕАДРЕСАЦИЮ НА ДРУГОЙ КОМПОНЕНТ
+      // СДЕЛАТЬ ХЕДЕР СО ССЫЛКАМИ И КОЛБЕКОМ
+// ВСПОМНИТЬ КАК ДЕЛАТЬ ПЕРЕАДРЕСАЦИЮ НА ДРУГОЙ КОМПОНЕНТ (для роутинга)
 // useRef сделать кнопку со счетчиком, привязывать элемент
-// модалки
+      // модалки (сделано на главной) (createPortal)
 // формы
     // сделать компонент с возвратом на предидущую страницу
 // сделать слайдер простой
@@ -37,7 +39,7 @@ export const usersContext = createContext(null);
 // cryptoApi
 // typescript (перейти)
 // Express
-// Перейти на next
+// Перейти на Next.js
 
 function App() {
   const {listing, setListing} = useStartListing();
@@ -52,7 +54,9 @@ function App() {
               <Route path='user/:id' element={<UserAbout />} />
               <Route path='slider' element={<Slider />} />
               <Route path="/form" element={<FormsPage />} />
-              <Route path='/use-memo' element={< HookUseMemo/>} />
+              <Route path='/use-memo' element={< HookUseMemo />} />
+              <Route path='/use-callback' element={<HookUseCallback />} />
+              <Route path='/use-react-memo' element={<ReactMemo />} />
             </Route>
           </Routes>
         </div>

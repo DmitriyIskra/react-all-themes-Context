@@ -1,0 +1,26 @@
+.wrapper {
+    display: grid;
+    height: 70vh;
+    place-items: center;
+}
+
+.theme {
+    display: grid;
+    height: 100px;
+    width: 100%;
+    place-items: center;
+
+    font-size: 25px;
+    font-weight: 700;
+
+    border: 1px solid gray;
+}
+
+.dark {
+    background-color: #000;
+    color: #fff;
+}
+
+.white {
+    background-color: #fff;
+}

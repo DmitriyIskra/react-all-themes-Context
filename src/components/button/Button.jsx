@@ -1,7 +1,14 @@
 import styles from './style/style.module.css';
 
-export default function Button({handler, name}) {
+const Button = ({handler, name}) => {
+
+  const s = () => console.log('Заново созданный button');
+  s();
+
   return (
     <button onClick={handler && handler} className={styles.button}>{name}</button>
   )
 }
+
+
+export default Button;
