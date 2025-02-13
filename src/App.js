@@ -1,3 +1,25 @@
+      // Layout Outlet
+// json-server ?
+// Axios
+      // useMemo
+      // React.memo()
+// посмотреть react/redux 
+// фильтр пользователей
+// УЗНАТЬ КАК МОЖНО БОЛЬШЕ ПРО ROUTERPROVIDER и <BrowserRouter future={{v7_startTransition: true,}}>
+      // СДЕЛАТЬ ХЕДЕР СО ССЫЛКАМИ И КОЛБЕКОМ
+// ВСПОМНИТЬ КАК ДЕЛАТЬ ПЕРЕАДРЕСАЦИЮ НА ДРУГОЙ КОМПОНЕНТ (для роутинга)
+// useRef сделать кнопку со счетчиком, привязывать элемент
+      // модалки (сделано на главной) (createPortal)
+// формы - сделать все типы полей
+    // сделать компонент с возвратом на предидущую страницу
+// сделать слайдер простой
+// swiper
+// soundApi
+// cryptoApi
+// typescript (перейти)
+// Express
+// Перейти на Next.js
+
 import './App.css';
 
 import { createContext } from 'react';
@@ -19,27 +41,7 @@ import ReactMemo from './pages/react-memo/ReactMemo';
 
 export const usersContext = createContext(null);
 
-      // Layout Outlet
-// json-server ?
-// Axios
-      // useMemo
-      // React.memo()
-// посмотреть react/redux 
-// фильтр пользователей
-// УЗНАТЬ КАК МОЖНО БОЛЬШЕ ПРО ROUTERPROVIDER и <BrowserRouter future={{v7_startTransition: true,}}>
-      // СДЕЛАТЬ ХЕДЕР СО ССЫЛКАМИ И КОЛБЕКОМ
-// ВСПОМНИТЬ КАК ДЕЛАТЬ ПЕРЕАДРЕСАЦИЮ НА ДРУГОЙ КОМПОНЕНТ (для роутинга)
-// useRef сделать кнопку со счетчиком, привязывать элемент
-      // модалки (сделано на главной) (createPortal)
-// формы
-    // сделать компонент с возвратом на предидущую страницу
-// сделать слайдер простой
-// swiper
-// soundApi
-// cryptoApi
-// typescript (перейти)
-// Express
-// Перейти на Next.js
+
 
 function App() {
   const {listing, setListing} = useStartListing();
